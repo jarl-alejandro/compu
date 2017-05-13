@@ -1,0 +1,101 @@
+nav{
+  top: 0;
+}
+#showForm{
+  position: absolute;
+  bottom: 2em;
+  right: 2em;
+}
+.top-medium{
+  margin-top: 2em;
+}
+.center-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title{
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #4e4e4e;
+  margin: 0;
+}
+.full-height{
+  height: 100%;
+}
+.foto-equipo, .foto-producto{
+  border: 1px solid #7d7d7d;
+  width: 100%;
+  height: 7em;
+}
+
+.containerForm{
+  display: none;
+}
+.EquipoForm, .PromocionForm{
+  padding-bottom: 1em;
+}
+.EquipoForm-title{
+  margin: 0;
+  color: #636363;
+}
+.FormEmpleadoLogin{
+  background: white;
+}
+.Carrito-footer{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.Carrito-footer button:first-child{
+  margin-right: 1em;
+}
+.loadImage{
+  position: fixed;
+  z-index: 1111;
+  background: rgba(0,0,0,0.5);
+  top: 0;
+  bottom: 0;
+  visibility: hidden;
+  transition: all ease .3s;
+  border-radius: 90%;
+  opacity: 0;
+  height: 0;
+}
+.loadImage-active{
+  height: 100%;
+  opacity: 1;
+  visibility: visible;
+  border-radius: inherit;
+}
+
+.loadImage-img{
+  width: 50em;
+  height: 30em;
+  box-shadow:  0 0 0 10px white,
+               0 0 0 12px #ccc,
+               0 20px 25px -11px #000;
+}
+
+.closeImage{
+  position: absolute;
+  right: 2em;
+  top: 5em;
+  z-index: 1111111;
+  height: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.closeImage i{
+  color: white;
+  font-size: 4em;
+}
+
+#FormContainer{
+  display: none;
+}
+
+.PasswordForm{
+  display: none;
+}
